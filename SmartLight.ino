@@ -1,6 +1,6 @@
 /*Smart Light*/
 
-#define BLYNK_TEMPLATE_ID " " //This is where you enter the Blynk Template ID
+#define BLYNK_TEMPLATE_ID " " //Blynk Template ID
 #define BLYNK_TEMPLATE_NAME " " //Blynk Template Name
 #define BLYNK_AUTH_TOKEN " " //Blynk Auth Token
 
