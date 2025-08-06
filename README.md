@@ -51,10 +51,13 @@ I often forget if I’ve locked my front door after leaving the house. Additiona
 3. Update the following fields in the code:
 
 #define BLYNK_TEMPLATE_ID "Your_Template_ID"
+
 #define BLYNK_TEMPLATE_NAME "Your_Template_Name"
+
 #define BLYNK_AUTH_TOKEN "Your_Auth_Token"
 
 const char* ssid = "Your_WiFi_Name";
+
 const char* password = "Your_WiFi_Password";
 
 4. Upload the code to both ESP32 boards.
