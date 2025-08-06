@@ -9,8 +9,8 @@
 #include <BlynkSimpleEsp32.h>
 #include <ESP32Servo.h>
 
-char ssid[] = " "; //WIFI name
-char pass[] = " "; //WIFI password
+char ssid[] = " "; //WIFI Name
+char pass[] = " "; //WIFI Password
 
 Servo myServo;
 int servoPin = 18;
