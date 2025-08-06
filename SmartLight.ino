@@ -1,17 +1,16 @@
 /*Smart Light*/
 
-#define BLYNK_TEMPLATE_ID "TMPL2rOUV5sMB"
-#define BLYNK_TEMPLATE_NAME "ESP32 Smart Light"
-#define BLYNK_AUTH_TOKEN "lrEwpBqLPC_J2dXS3RdNqtV6FpHUbSMp"
+#define BLYNK_TEMPLATE_ID " " //This is where you enter the Blynk Template ID
+#define BLYNK_TEMPLATE_NAME " " //Blynk Template Name
+#define BLYNK_AUTH_TOKEN " " //Blynk Auth Token
 
 #include <WiFi.h>
 #include <WifiClient.h>
 #include <BlynkSimpleEsp32.h>
 #include <ESP32Servo.h>
 
-char ssid[] = " "; //This is where you enter your WIFI name
-char pass[] = " "; //This is where you enter your WIFI password
-
+char ssid[] = " "; //WIFI Name
+char pass[] = " "; //WIFI Password
 Servo myServo;
 int servoPin = 18;
 void setup() {
@@ -43,7 +42,7 @@ BLYNK_WRITE(V0) {
 
     } else {
 
-      Serial.println("Womp womp"); //No understand command
+      Serial.println("Womp womp"); //Neither On or Off
 
     }
 }
