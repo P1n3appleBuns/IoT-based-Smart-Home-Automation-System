@@ -34,9 +34,9 @@ This project is an IoT-based Smart Home System designed to remotely control a fr
 
 3. Both ESP32 boards control continuous servo motors:
 
-  * The first servo locks/unlocks the front door.
+    * The first servo locks/unlocks the front door.
 
-  * The second servo flips the bedroom light switch.
+    * The second servo flips the bedroom light switch.
 
 4. Control is handled entirely from the Blynk mobile app, making it simple and convenient.
 
