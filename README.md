@@ -15,8 +15,8 @@ I decided to do this project because I tend to forget whether I locked my front 
 
 # Quick Setup
 
-In the code, you will have to get your Blynk Template ID, Template Name, and Auth Token. Enter into the respective lines in the code. 
+In the code, you will have to get your Blynk Template ID, Template Name, and Auth Token. Enter into their respective lines in the code. 
 
-Then, you will need to allow the ESP32 to access the WIFI by entering your WIFI Name and Password into the respective lines.
+Then, you will need to allow the ESP32 to access the WIFI by entering your WIFI Name and Password into their respective lines.
 
 When you have your ESP32 linked up and online you can then fine tune the delay of the servo motor in lines 32 and 40 to match your desired rotation.
