@@ -1,7 +1,7 @@
-# 🏠 IoT-based Smart Home Automation System
+# IoT-based Smart Home Automation System
 This project is an IoT-based Smart Home System designed to remotely control a front door lock and bedroom lights using ESP32 boards and the Blynk IoT platform. It provides a convenient, wireless solution for home automation with both Wi-Fi and ESP-NOW communication.
 
-# ✨ Features
+# Features
 * Remote Door Lock Control: Lock or unlock your door from anywhere using the Blynk IoT app.
 
 * Room Light Automation: Turn your bedroom lights on or off wirelessly without leaving your bed.
@@ -12,7 +12,7 @@ This project is an IoT-based Smart Home System designed to remotely control a fr
 
 * Servo Motor Actuation: Physical control of the door lock and light switch via continuous servo motors.
 
-# 🛠 Components Used
+# Components Used
 * 2 × ESP32 Development Boards
 
   * ESP32 (Door Lock): Connects to Wi-Fi and Blynk IoT app.
@@ -27,7 +27,7 @@ This project is an IoT-based Smart Home System designed to remotely control a fr
 
 * Jumper wires, breadboard, and USB cables for connections.
 
-# 🔧 How It Works
+# How It Works
 1. Door Lock ESP32 connects to your Wi-Fi and the Blynk IoT platform.
 
 2. Room Light ESP32 uses ESP-NOW to receive commands locally from the Door Lock ESP32.
@@ -40,10 +40,10 @@ This project is an IoT-based Smart Home System designed to remotely control a fr
 
 4. Control is handled entirely from the Blynk mobile app, making it simple and convenient.
 
-# 📱 Why I Built This Project
+# Why I Built This Project
 I often forget if I’ve locked my front door after leaving the house. Additionally, I wanted a way to control my bedroom light while in bed without getting up. This project solved both problems with a practical and fun IoT solution!
 
-# ⚡ Quick Setup
+# Quick Setup
 1. Clone or download this repository.
 
 2. Open the code in Arduino IDE or PlatformIO.
@@ -66,7 +66,7 @@ I often forget if I’ve locked my front door after leaving the house. Additiona
 
 6. Open the Blynk IoT app, connect your device, and start controlling your home!
 
-# 🚀 Future Improvements
+#Future Improvements
 * Add status feedback (door locked/unlocked state).
 
 * Integrate voice assistant support (Google Home/Alexa).
