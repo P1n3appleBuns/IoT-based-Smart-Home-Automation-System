@@ -66,7 +66,7 @@ I often forget if I’ve locked my front door after leaving the house. Additiona
 
 6. Open the Blynk IoT app, connect your device, and start controlling your home!
 
-#Future Improvements
+# Future Improvements
 * Add status feedback (door locked/unlocked state).
 
 * Integrate voice assistant support (Google Home/Alexa).
